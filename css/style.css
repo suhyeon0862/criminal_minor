@@ -1,0 +1,432 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+body {
+  width: 100vw;
+  height: 550vh;
+  overflow-x: hidden;
+}
+
+.main {
+  padding: 100px;
+  width: 100%; 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative; 
+  top: 5000px;
+  bottom: 0; 
+  left: 0; 
+  overflow-x: hidden; 
+}
+
+button {
+  all: unset;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #383838;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  appearance: none;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.button{ 
+  font-size: 16px;
+  width: 180px;
+  height: 70px;
+  position: absolute;
+  font-size: 15px;
+  top: 3760px;
+  left: 870px;
+  transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color: #cacaca; 
+    color: rgb(73, 73, 73);
+  }
+
+
+.h1{
+  font-family: "Noto Sans KR" , sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  display: flex;
+  justify-content:center;
+  padding: 0 30px;
+}
+.h2{
+  font-family: "Noto Sans KR" , sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  justify-content:center;
+  padding: 0 40px;
+}
+.h3{
+  font-family: "Noto Sans KR" , sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  display: flex;
+  justify-content:center;
+  padding: 0 30px;
+
+}
+.h4{
+  font-family: "Noto Sans KR" , sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  justify-content:center;
+  padding: 0 40;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgb(41, 41, 41) 0%,
+    #1f0101 100%);
+}
+
+.main-title:hover {
+  background: #1f0101;
+  color: #cacaca; 
+  transform: rotate(9.4deg);
+}
+  .main-title {
+  width: 725px;
+  height: 548px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  padding: 20px;
+  top: 50px;
+  left: 1000px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 1.3s ease-in-out;
+  animation-play-state: stop;
+}
+
+.imagBefore1{
+  margin-top: 20px;
+}
+
+.main-title2:hover {
+  background: #1f0101;
+  color: #cacaca; 
+  transform: rotate(6.2deg);
+}
+
+.main-title2 {
+  width: 980px;
+  height: 720px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  padding: 20px;
+  top: 660px;
+  left: 220px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.8s ease-in-out;
+  
+}
+
+.main-title3:hover {
+  background: #1f0101;
+  color: #cacaca; 
+  transform: rotate(3.4deg);
+}
+
+.main-title3 {
+  width: 680px;
+  height: 560px;
+  background-color: rgb(231, 231, 231);
+  position: absolute;
+  padding: 20px;
+  top: 1000px;
+  left: 1050px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.6s ease-in-out;
+}
+
+.main-title4:hover {
+  background: #1f0101;
+  color: #cacaca; 
+  transform: rotate(7.4deg);
+}
+
+.main-title4 {
+  width: 770px;
+  height: 650px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  padding: 20px;
+  top: 1505px;
+  left: 150px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.7s ease-in-out;
+}
+
+.main-title5:hover {
+  background: #1f0101;
+  color: #cacaca; 
+  transform: rotate(-13.4deg);
+}
+
+.main-title5 {
+  width: 710px;
+  height: 545px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  padding: 20px;
+  top: 2280px;
+  left: 240px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.9s ease-in-out;
+}
+
+.main-title6:hover {
+  background: #1f0101;
+  color: #cacaca; 
+  transform: rotate(18deg);
+}
+
+.main-title6{
+  width: 1220px;
+  height: 795px;
+  background-color: rgb(236, 236, 236);
+  position: absolute;
+  padding: 20px;
+  top: 2616px;
+  left: 580px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 1.8s ease-in-out;
+}
+
+.main-title7:hover {
+  background: #1f0101;
+  color: #cacaca; 
+  transform: rotate(6.7deg);
+}
+
+.main-title7{
+  width: 913px;
+  height: 530px;
+  background-color: rgb(236, 236, 236);
+  position: absolute;
+  padding: 20px;
+  top: 1796px;
+  left: 920px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.9s ease-in-out;
+}
+
+/*
+
+block(ex. div, h1~h6, header, body
+공간(크기X)을 가로축으로 끝까지 차지하는 속성.
+가로세로 크기 조절 가능한 속성.
+
+inline(ex. span)
+공간(크기X)을 가로축으로 끝까지 차지하지 않는 속성.
+가로세로 크기 조절 불가능한 속성.
+    
+*/
+.main-row:hover{
+  transform: scale(1.03);
+}
+
+.main-row {
+  width: 100%;
+  height: 10%; /* ! */
+  border-radius: 5px; /*경계선 곡률*/
+  background-color: aliceblue;
+  display: flex;
+  /*justify-content: space-between;*/
+  transition: all 0.4s ease-in-out;
+}
+
+/*스탬프이미지*/
+
+.stamp1{
+  width: 632px;
+  height: 437px;
+  transform: rotate(-10deg);
+  position: relative;
+  bottom: 280px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.stamp1:hover{
+  opacity: 1;
+}
+
+.stamp1 > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.stamp2{
+  width: 1000px;
+  height: 370px;
+  transform: rotate(-30deg);
+  position: relative;
+  bottom: 500px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.stamp2:hover{
+  opacity: 1;
+}
+
+.stamp2 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.stamp3{
+  width: 618px;
+  height: 231px;
+  transform: rotate(20deg);
+  position: relative;
+  bottom: 200px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.stamp3:hover{
+  opacity: 1;
+}
+
+.stamp3 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.stamp4{
+  width: 793px;
+  height: 372px;
+  transform: rotate(-17deg);
+  position: relative;
+  bottom: 450px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.stamp4:hover{
+  opacity: 1;
+}
+
+.stamp4 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.stamp5{
+  width: 700px;
+  height: 262px;
+  transform: rotate(15deg);
+  position: relative;
+  bottom: 350px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.stamp5:hover{
+  opacity: 1;
+}
+
+.stamp5 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.stamp6{
+  width: 1100px;
+  height: 662px;;
+  transform: rotate(-15deg);
+  position: relative;
+  left: 30px;
+  bottom: 500px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.stamp6:hover{
+  opacity: 1;
+}
+
+.stamp6 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.stamp7{
+  width: 70%;
+  height: 50%;
+  transform: rotate(-12deg);
+  position: relative;
+  bottom: 300px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.stamp7:hover{
+  opacity: 1;
+}
+
+.stamp7 > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.inner{
+  background-color: #1f0101;
+}
+.info {
+  font-family: "Noto Sans KR";
+  width: 400;
+  font-size: small;
+  color:#494949;
+  position:relative;
+  left: 1560px;
+}

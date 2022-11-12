@@ -1,0 +1,347 @@
+#main {
+  display: block;
+}
+#main.hidden {
+  display: none;
+}
+#subPage{
+  display: none;
+  background-repeat: no-repeat;
+}
+#subPage.show {
+  display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+
+.title{
+  width: 800px;
+  height: auto;
+  position: relative;
+  top:100px;
+  left:155px;
+}
+.title > img {
+  width:100%;
+  height:100%;
+}
+.textBox{
+position: absolute;
+top: 4060px;
+left: 455px
+
+}
+
+.Sub-text1{
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 1em;
+    color: rgb(128, 128, 128);
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    word-spacing: 1.2px;
+    line-height: 2.0;
+    text-align:center;
+  }
+  
+.Sub-text2{
+    font-family: "Noto Sans KR";
+    font-weight: 700;
+    font-size: 2em;
+    color: rgb(212, 212, 212);
+    font-weight: 400;
+    text-align:center;
+  }
+  
+  
+.imagAfter{
+  margin-top: 20px;
+}
+
+  .sub-title:hover {
+    background: #1f0101;
+    transform: rotate(9.4deg);
+    color: #cacaca; 
+  }
+    .sub-title {
+    width: 725px;
+    height: 548px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 20px;
+    top: 50px;
+    left: 1000px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1.3s ease-in-out;
+    animation-play-state: stop;
+  }
+  
+  .sub-title{
+    margin-top: 20px;
+  }
+  
+  .sub-title2:hover {
+    background: #1f0101;
+    color: #cacaca; 
+    transform: rotate(6.2deg);
+  }
+  
+  .sub-title2 {
+    width: 980px;
+    height: 720px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 20px;
+    top: 660px;
+    left: 220px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.8s ease-in-out;
+    
+  }
+  
+  .sub-title3:hover {
+    background: #1f0101;
+    color: #cacaca; 
+    transform: rotate(3.4deg);
+  }
+  
+  .sub-title3 {
+    width: 680px;
+    height: 560px;
+    background-color: rgb(231, 231, 231);
+    position: absolute;
+    padding: 20px;
+    top: 1000px;
+    left: 1050px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .sub-title4:hover {
+    background: #1f0101;
+    color: #cacaca; 
+    transform: rotate(7.4deg);
+  }
+  
+  .sub-title4 {
+    width: 770px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 20px;
+    top: 1505px;
+    left: 150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.7s ease-in-out;
+  }
+  
+  .sub-title5:hover {
+    background: #1f0101;
+    color: #cacaca; 
+    transform: rotate(-13.4deg);
+  }
+  
+  .sub-title5 {
+    width: 710px;
+    height: 545px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 20px;
+    top: 2280px;
+    left: 240px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.9s ease-in-out;
+  }
+  
+  .sub-title6:hover {
+    background: #1f0101;
+    color: #cacaca; 
+    transform: rotate(18deg);
+  }
+  
+  .sub-title6{
+    width: 1220px;
+    height: 795px;
+    background-color: rgb(236, 236, 236);
+    position: absolute;
+    padding: 20px;
+    top: 2616px;
+    left: 580px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1.8s ease-in-out;
+  }
+  
+  .sub-title7:hover {
+    background: #1f0101;
+    color: #cacaca; 
+    transform: rotate(6.7deg);
+  }
+  
+  .sub-title7{
+    width: 913px;
+    height: 530px;
+    background-color: rgb(236, 236, 236);
+    position: absolute;
+    padding: 20px;
+    top: 1796px;
+    left: 920px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.9s ease-in-out;
+  }
+
+  .sub-stamp1{
+    width: 732px;
+    height: 537px;
+    transform: rotate(-10deg);
+    position: relative;
+    bottom: 340px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .sub-stamp1:hover{
+    opacity: 1;
+  }
+  
+  .sub-stamp1 > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .sub-stamp2{
+    width: 1000px;
+    height: 370px;
+    transform: rotate(-30deg);
+    position: relative;
+    bottom: 500px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .sub-stamp2:hover{
+    opacity: 1;
+  }
+  
+  .sub-stamp2 > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sub-stamp3{
+    width: 718px;
+    height: 331px;
+    transform: rotate(20deg);
+    position: relative;
+    bottom: 350px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .sub-stamp3:hover{
+    opacity: 1;
+  }
+  
+  .sub-stamp3 > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sub-stamp4{
+    width: 793px;
+    height: 372px;
+    transform: rotate(-17deg);
+    position: relative;
+    bottom: 450px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .sub-stamp4:hover{
+    opacity: 1;
+  }
+  
+  .sub-stamp4 > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sub-stamp5{
+    width: 900px;
+    height: 462px;
+    transform: rotate(15deg);
+    position: relative;
+    bottom: 350px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .sub-stamp5:hover{
+    opacity: 1;
+  }
+  
+  .sub-stamp5 > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sub-stamp6{
+    width: 1100px;
+    height: 662px;;
+    transform: rotate(-15deg);
+    position: relative;
+    left: 30px;
+    bottom: 500px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .sub-stamp6:hover{
+    opacity: 1;
+  }
+  
+  .sub-stamp6 > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sub-stamp7{
+    width: 1000px;
+    height: 562px;
+    transform: rotate(-12deg);
+    position: relative;
+    bottom: 370px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .sub-stamp7:hover{
+    opacity: 1;
+  }
+  
+  .sub-stamp7 > img {
+    width: 100%;
+    height: 100%;
+  }
